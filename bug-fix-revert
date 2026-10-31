@@ -1,11 +1,19 @@
-GitHub API request:
-curl -s https://api.github.com/repos/Hemanth2506/mcino-Introduction-to-Git-and-GitHub/pulls/2
+$ curl -s https://api.github.com/repos/Hemanth2506/mcino-Introduction-to-Git-and-GitHub/pulls/2
 
-Verified GitHub API fields (retrieved through GitHub connector, not terminal curl output):
+# Actual GitHub API fields, retrieved through GitHub connector (not curl terminal recording).
 {
   "number": 2,
   "state": "open",
-  "head": {"ref": "bug-fix-revert", "repo": {"full_name": "Hemanth2506/mcino-Introduction-to-Git-and-GitHub"}},
-  "base": {"ref": "main"},
+  "html_url": "https://github.com/Hemanth2506/mcino-Introduction-to-Git-and-GitHub/pull/2",
+  "head": {
+    "ref": "bug-fix-revert",
+    "repo": {
+      "full_name": "Hemanth2506/mcino-Introduction-to-Git-and-GitHub",
+      "fork": true
+    }
+  },
+  "base": {
+    "ref": "main"
+  },
   "changed_files": 1
 }
