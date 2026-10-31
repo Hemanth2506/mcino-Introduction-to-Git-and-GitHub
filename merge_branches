@@ -1,0 +1,10 @@
+Assignment commands:
+git checkout main
+git merge bug-fix-typo
+
+Verified GitHub merge information (not the terminal transcript):
+Pull request: #1
+Branch: bug-fix-typo -> main
+Merged: true
+Files changed: 1
+Merge commit: b9fe1a7f946d990e445bfa21d744c2958612d9d3
