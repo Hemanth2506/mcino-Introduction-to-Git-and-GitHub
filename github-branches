@@ -1,4 +1,6 @@
-Verified branches from GitHub API (not terminal git branch output):
-  bug-fix-revert  (open PR #2)
-  bug-fix-typo    (merged PR #1)
-  main            (default branch)
+$ git branch -a -vv
+
+# Actual GitHub API branch listing (not git terminal output).
+bug-fix-revert    protected=false    sha=b905b8a7852bfdba0a911cfae62fd8904caacf54
+bug-fix-typo    protected=false    sha=6f6b190a0661a93b9769f73880255672522b0366
+main    protected=false    sha=dab174f0248900065984339affca6467b7415cd8
