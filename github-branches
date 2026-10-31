@@ -1,0 +1,4 @@
+Verified branches from GitHub API (not terminal git branch output):
+  bug-fix-revert  (open PR #2)
+  bug-fix-typo    (merged PR #1)
+  main            (default branch)
