@@ -1,0 +1,9 @@
+GitHub API request:
+curl -s https://api.github.com/repos/Hemanth2506/mcino-Introduction-to-Git-and-GitHub
+
+Verified GitHub API fields (retrieved through GitHub connector, not terminal curl output):
+{
+  "full_name": "Hemanth2506/mcino-Introduction-to-Git-and-GitHub",
+  "fork": true,
+  "parent": {"full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"}
+}
