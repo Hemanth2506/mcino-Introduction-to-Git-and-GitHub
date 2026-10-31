@@ -1,10 +1,15 @@
-Assignment commands:
-git checkout main
-git merge bug-fix-typo
+$ git checkout main
+$ git merge bug-fix-typo
 
-Verified GitHub merge information (not the terminal transcript):
-Pull request: #1
-Branch: bug-fix-typo -> main
-Merged: true
-Files changed: 1
-Merge commit: b9fe1a7f946d990e445bfa21d744c2958612d9d3
+# Actual GitHub API merge metadata, NOT original terminal output.
+{
+  "pull_request": 1,
+  "merged": true,
+  "state": "closed",
+  "merge_commit_sha": "b9fe1a7f946d990e445bfa21d744c2958612d9d3",
+  "changed_files": 1,
+  "additions": 3,
+  "deletions": 3,
+  "head": "bug-fix-typo",
+  "base": "main"
+}
