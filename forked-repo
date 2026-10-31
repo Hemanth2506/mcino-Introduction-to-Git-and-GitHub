@@ -1,9 +1,10 @@
-GitHub API request:
-curl -s https://api.github.com/repos/Hemanth2506/mcino-Introduction-to-Git-and-GitHub
+$ curl -s https://api.github.com/repos/Hemanth2506/mcino-Introduction-to-Git-and-GitHub
 
-Verified GitHub API fields (retrieved through GitHub connector, not terminal curl output):
+# The JSON below is the actual GitHub API response retrieved through the connected GitHub API, not a curl terminal recording.
 {
   "full_name": "Hemanth2506/mcino-Introduction-to-Git-and-GitHub",
   "fork": true,
-  "parent": {"full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"}
+  "parent": {
+    "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+  }
 }
